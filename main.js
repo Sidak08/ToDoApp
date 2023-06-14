@@ -42,7 +42,7 @@ function displayInfo() {
 }
 
 function retrivediv() {
-  for (let i = 0; i < 3; i++) {
+  for (let i = 0; i < savedIdeaArray.length; i++) {
     let textHolder = document.createElement("input");
     textHolder.setAttribute('placeholder', `This is your ${i + 1} idea`);
     textHolder.setAttribute("id", `idea${i + 1}`);
